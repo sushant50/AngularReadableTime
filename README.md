@@ -3,8 +3,7 @@ Clone the Javascript file and include it in your html page. Inject AngularReadab
 
 Example-
 ~~~~
-     var app = angular.module('priApp',
-               [ 'ngRoute', 'ngResource', 'ui.bootstrap','toastr','#                      AngularReadableTime','appcontroller','TagCtrl','xeditable','directives']);
+     var app = angular.module('priApp',[ 'ngRoute', 'ngResource', 'ui.bootstrap','toastr','AngularReadableTime','appcontroller','TagCtrl','xeditable','directives']);
     
     <div class="row ipAddressdetails">
     <div class="col-lg-12 col-md-12 text-center">
